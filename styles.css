@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: linear-gradient(white, #495d94);
+    height: 100vh;
+}
+
+.home1{
+    background: linear-gradient(white, #495d94);
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav__options{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: whitesmoke;   
+}
+.banner{
+    height: 50px;
+    background: white;
+}
+
+.nav__options .title{
+    display: flex;
+    align-items: center;
+}
+.nav__options .title h2{
+    font-size: 35px;
+    color: #495d94;
+}
+.nav__options .title i{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.nav__options .nav__list{
+    list-style: none;
+    display: inline-flex;
+    
+}
+.nav__options .nav__list a{
+
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.nav__options .nav__list a:hover{
+    color: #0f2d80;
+    font-weight: 500;
+    transform: scale(1.5);
+
+}
+
+.red__social{
+    position: fixed;
+    top: 30%;
+    margin-left: 10px;
+    background: #222;
+    padding: 15px;
+    border-radius: 20px;
+}
+.red__social ul a{
+    display: block;
+    font-size: 30px;
+    /* color: cornflowerblue; */
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.red__social ul a:hover{
+    transform: scale(1.5);
+}
+
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.home .information{
+    margin: auto;
+    width: 80%;
+}
+
+
+.home .section__photo img{
+    width: 600px;
+}
+.home .information .title__information h2{
+    font-size: 70px;
+}
+.home .information .text__information{
+    margin: 20px 0px 20px 0px;
+}
+.home .information .button {
+    display: flex;
+    margin: 20px;
+    transform: translate(50%,-30%);
+    
+}
+.home .information .button button{
+    border: none;
+    overflow: none;
+    padding: 5px;
+    background: cornflowerblue;;
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.home .information .button button:hover{
+    transform: scale(1.2);
+}
+
+.productos{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.productos_Venta .title__productos{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.productos_Venta .title__productos h2 span{
+    color:cornflowerblue;
+}
+
+
+
+.productos .card{
+    width: 70%;
+    margin: 20px  auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    color:#fff;
+}
+.productos .card .images{
+    padding: 20px;
+    margin-top: 20px;
+}
+.productos .card img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.productos .card img:hover{
+    
+    transform: scale(1.1);
+}
+.productos .card .buton{
+    display: flex;
+    justify-content: center;
+    background: black;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+    padding: 5px;
+}
+
+.productos .card .buton:hover{
+    background: crimson;
+}
+
+.productos .card .buton i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+.productos .card .buton button{
+    border: none;
+    outline: none;
+    background: none ;
+    font-size: 25px;
+    color:#fff;
+    
+}
+
